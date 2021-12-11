@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "80878995010",
+    "firebase_url": "https://examenandroid-79fa7.firebaseio.com",
+    "project_id": "examenandroid-79fa7",
+    "storage_bucket": "examenandroid-79fa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80878995010:android:55d0de5adaf939fd0f8fdb",
+        "android_client_info": {
+          "package_name": "com.example.empretime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ5dLfDvMltafoy7vgC0u8wZUIsFsN5Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80878995010-pdof5hmkb34di3cds9lqb5j6b24qd7gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80878995010:android:452fefb917f123570f8fdb",
+        "android_client_info": {
+          "package_name": "com.example.examenandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ5dLfDvMltafoy7vgC0u8wZUIsFsN5Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80878995010-pdof5hmkb34di3cds9lqb5j6b24qd7gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80878995010:android:95ff326e6054c3520f8fdb",
+        "android_client_info": {
+          "package_name": "com.razielalcaraz.examenandroidnetasystems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80878995010-4t8sonon5snqeptnrv74jpssd3aldnj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razielalcaraz.examenandroidnetasystems",
+            "certificate_hash": "64db19583ed947b4313f20e6095ff8edc750a70f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ5dLfDvMltafoy7vgC0u8wZUIsFsN5Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80878995010-pdof5hmkb34di3cds9lqb5j6b24qd7gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
