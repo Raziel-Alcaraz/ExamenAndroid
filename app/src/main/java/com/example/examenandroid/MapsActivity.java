@@ -56,12 +56,14 @@ String TAG = "mapsAct";
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                        if (task.isSuccessful()) {
+                        if (task.isSuccessful() ) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
-                                Log.d(TAG, document.getId() + " => " + document.getData());
-                                LatLng sydney = new LatLng((double)document.get("lat"), (double)document.get("lon"));
-                                mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-                                mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+                                if(document.get("lon")!= null&& document.get("lat")!=null) {
+                                    Log.d(TAG, document.getId() + " => " + document.getData());
+                                    LatLng sydney = new LatLng((double) document.get("lat"), (double) document.get("lon"));
+                                    mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+                                    mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+                                }
                             }
                         } else {
                             Log.d(TAG, "Error getting documents: ", task.getException());
