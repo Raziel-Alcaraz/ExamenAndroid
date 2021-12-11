@@ -1,0 +1,43 @@
+com/example/examenandroid/BuildConfig.java
+ com.example.examenandroid.BuildConfig
+com/example/examenandroid/MapsActivity.java
+ com.example.examenandroid.MapsActivity
+ com.example.examenandroid.MapsActivity$1
+com/example/examenandroid/FirstFragment.java
+ com.example.examenandroid.FirstFragment
+ com.example.examenandroid.FirstFragment$1
+com/example/examenandroid/locationServ.java
+ com.example.examenandroid.locationServ
+com/example/examenandroid/SecondFragment.java
+ com.example.examenandroid.SecondFragment
+ com.example.examenandroid.SecondFragment$1
+com/example/examenandroid/uploadsActivity.java
+ com.example.examenandroid.uploadsActivity
+ com.example.examenandroid.uploadsActivity$1
+ com.example.examenandroid.uploadsActivity$10
+ com.example.examenandroid.uploadsActivity$2
+ com.example.examenandroid.uploadsActivity$3
+ com.example.examenandroid.uploadsActivity$4
+ com.example.examenandroid.uploadsActivity$5
+ com.example.examenandroid.uploadsActivity$6
+ com.example.examenandroid.uploadsActivity$7
+ com.example.examenandroid.uploadsActivity$8
+ com.example.examenandroid.uploadsActivity$9
+com/example/examenandroid/First2Fragment.java
+ com.example.examenandroid.First2Fragment
+ com.example.examenandroid.First2Fragment$1
+com/example/examenandroid/peliculaFrag.java
+ com.example.examenandroid.peliculaFrag
+com/example/examenandroid/Second2Fragment.java
+ com.example.examenandroid.Second2Fragment
+ com.example.examenandroid.Second2Fragment$1
+com/example/examenandroid/MainActivity.java
+ com.example.examenandroid.MainActivity
+ com.example.examenandroid.MainActivity$1
+ com.example.examenandroid.MainActivity$2
+ com.example.examenandroid.MainActivity$3
+ com.example.examenandroid.MainActivity$3$1
+ com.example.examenandroid.MainActivity$3$2
+ com.example.examenandroid.MainActivity$4
+ com.example.examenandroid.MainActivity$5
+ com.example.examenandroid.MainActivity$6

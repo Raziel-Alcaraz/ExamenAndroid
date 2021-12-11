@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.examenandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:11:5-67
+16-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:12:22-78
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <application
+32-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:14:5-56:19
+33        android:allowBackup="true"
+33-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:15:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.7.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\ab37e3d2c4c1a9f01c4b26e1d1efb7ba\core-1.7.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:16:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:17:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:18:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:19:9-35
+40        android:theme="@style/Theme.ExamenAndroid" >
+40-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:20:9-51
+41        <activity
+41-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:21:9-24:79
+42            android:name="com.example.examenandroid.uploadsActivity"
+42-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:22:13-44
+43            android:label="@string/title_activity_uploads"
+43-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:23:13-59
+44            android:theme="@style/Theme.ExamenAndroid.NoActionBar" />
+44-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:24:13-67
+45
+46        <service
+46-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:26:9-30:56
+47            android:name="com.example.examenandroid.locationServ"
+47-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:27:13-41
+48            android:enabled="true"
+48-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:28:13-35
+49            android:exported="true"
+49-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:29:13-36
+50            android:foregroundServiceType="location" />
+50-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:30:13-53
+51        <!--
+52             The API key for Google Maps-based APIs is defined as a string resource.
+53             (See the file "res/values/google_maps_api.xml").
+54             Note that the API key is linked to the encryption key used to sign the APK.
+55             You need a different API key for each encryption key, including the release key that is used to
+56             sign the APK for publishing.
+57             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+58        -->
+59        <meta-data
+59-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:39:9-41:55
+60            android:name="com.google.android.geo.API_KEY"
+60-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:40:13-58
+61            android:value="@string/google_maps_key" />
+61-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:41:13-52
+62
+63        <activity
+63-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:43:9-45:59
+64            android:name="com.example.examenandroid.MapsActivity"
+64-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:44:13-41
+65            android:label="@string/title_activity_maps" />
+65-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:45:13-56
+66        <activity
+66-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:46:9-55:20
+67            android:name="com.example.examenandroid.MainActivity"
+67-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:47:13-41
+68            android:label="@string/app_name"
+68-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:48:13-45
+69            android:theme="@style/Theme.ExamenAndroid.NoActionBar" >
+69-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:49:13-67
+70            <intent-filter>
+70-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:50:13-54:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:51:17-69
+71-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:51:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:53:17-77
+73-->C:\Users\ST\AndroidStudioProjects\ExamenAndroid\app\src\main\AndroidManifest.xml:53:27-74
+74            </intent-filter>
+75        </activity>
+76        <!-- Needs to be explicitly declared on P+ -->
+77        <uses-library
+77-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:39:9-41:40
+78            android:name="org.apache.http.legacy"
+78-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:40:13-50
+79            android:required="false" />
+79-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\c4f681497068abf8629b3bd1be823357\jetified-play-services-maps-18.0.1\AndroidManifest.xml:41:13-37
+80
+81        <service
+81-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4964ee9563b811e8c8022bc472e0e03c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4964ee9563b811e8c8022bc472e0e03c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:18:13-84
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\66d956fa6661386e62b11a7423f7e8cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4964ee9563b811e8c8022bc472e0e03c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:19:13-37
+85            <meta-data
+85-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4964ee9563b811e8c8022bc472e0e03c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+86                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+86-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4964ee9563b811e8c8022bc472e0e03c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4964ee9563b811e8c8022bc472e0e03c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\a79cb1000b145c0fd706030550f99c7f\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+89                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+89-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\a79cb1000b145c0fd706030550f99c7f\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\a79cb1000b145c0fd706030550f99c7f\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+91        </service>
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\66d956fa6661386e62b11a7423f7e8cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\66d956fa6661386e62b11a7423f7e8cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+95            android:authorities="com.example.examenandroid.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\66d956fa6661386e62b11a7423f7e8cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\66d956fa6661386e62b11a7423f7e8cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+97            android:exported="false"
+97-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\66d956fa6661386e62b11a7423f7e8cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+98            android:initOrder="100" />
+98-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\66d956fa6661386e62b11a7423f7e8cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\03dc93fd59a00a02041612c3a4e31c37\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\03dc93fd59a00a02041612c3a4e31c37\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\03dc93fd59a00a02041612c3a4e31c37\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\03dc93fd59a00a02041612c3a4e31c37\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\28746288e708e9293478bad505943058\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\28746288e708e9293478bad505943058\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\28746288e708e9293478bad505943058\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+108
+109        <provider
+109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4359198de180a80ddd08128f3b4e89e1\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+110            android:name="androidx.startup.InitializationProvider"
+110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4359198de180a80ddd08128f3b4e89e1\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+111            android:authorities="com.example.examenandroid.androidx-startup"
+111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4359198de180a80ddd08128f3b4e89e1\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+112            android:exported="false" >
+112-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4359198de180a80ddd08128f3b4e89e1\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+113            <meta-data
+113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4359198de180a80ddd08128f3b4e89e1\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+114                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+114-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4359198de180a80ddd08128f3b4e89e1\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+115                android:value="androidx.startup" />
+115-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\4359198de180a80ddd08128f3b4e89e1\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+116            <meta-data
+116-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\40002bcd50de2bad154d2ba973f35e33\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\40002bcd50de2bad154d2ba973f35e33\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+118                android:value="androidx.startup" />
+118-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ST\.gradle\caches\transforms-2\files-2.1\40002bcd50de2bad154d2ba973f35e33\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+119        </provider>
+120    </application>
+121
+122</manifest>
